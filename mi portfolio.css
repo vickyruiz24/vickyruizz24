@@ -1,0 +1,47 @@
+/* Colores en gama lila pastel */
+:root {
+  --lila-claro: #e9dff5;
+  --lila-medio: #c8a2c8;
+  --texto-principal: #333;
+}
+
+/* Selectores por clase */
+.seccion-experiencia {
+  background-color: var(--lila-claro);
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px;
+  color: var(--texto-principal);
+   text-align: center
+}
+
+.seccion-imagen {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.seccion-final {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-left: 5px solid var(--lila-medio);
+  margin: 20px;
+   text-align: center
+}
+
+/* Selectores por id */
+#encabezado {
+  background-color: var(--lila-medio);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Imagen redonda */
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--lila-medio);
+   text-align: center
+}
