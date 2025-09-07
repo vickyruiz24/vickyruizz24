@@ -1,0 +1,89 @@
+/* 🎨 Colores en gama lila pastel */ 
+:root {
+  --lila-claro: #e9dff5;
+  --lila-medio: #c8a2c8;
+  --texto-principal: #333;
+}
+
+/* ✨ Sección de experiencia */
+.seccion-experiencia {
+  background-color: var(--lila-claro);
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem auto;
+  max-width: 900px;
+  color: var(--texto-principal);
+  text-align: center;
+}
+
+/* 📸 Sección imagen */
+.seccion-imagen {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+/* 🔚 Sección final */
+.seccion-final {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-left: 5px solid var(--lila-medio);
+  margin: 2rem auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+.seccion-final p {
+  word-wrap: break-word;  
+  overflow-wrap: break-word;
+  text-align: center;      
+}
+
+
+/* 🏷️ Encabezado */
+#encabezado {
+  background-color: var(--lila-medio);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* 🖼️ Imagen redonda */
+img {
+  width: 40vw;       
+  max-width: 200px;  
+  height: auto;     
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--lila-medio);
+}
+
+/* 📱 Media queries para pantallas chicas */
+@media (max-width: 768px) {
+  .seccion-experiencia,
+  .seccion-final {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  #encabezado {
+    font-size: 1.2rem;
+    padding: 1.2rem;
+  }
+
+  img {
+    width: 60vw;    /* Imagen más grande en pantallas chicas */
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  #encabezado {
+    font-size: 1rem;
+  }
+
+  img {
+    width: 70vw;
+    max-width: 120px;
+  }
+}
